@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>&#128068; G&D STORE &#128068;</title>
+  <link rel="stylesheet" href="./STYLE.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <nav class="navbar">
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="productos.html">Productos</a></li>
+      <li><a href="acerca.html">Sobre Nosotros</a></li>
+    </ul>
+    <div class="carrito">
+      <button id="verCarrito">&#128722; Carrito (<span id="totalCarrito">0</span> items)</button>
+    </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <header class="hero">
+    <h1> &#128139;Bienvenida a Nuestra Tienda de Maquillaje&#128139;</h1>
+    <p style="font-size: 23px;">Descubre productos increíbles para realzar tu belleza.&#128132;</p>
+  </header>
+
+  <main>
+    <section id="mas-vendido">
+      <h2 class="titulos-index">Lo Más Vendido</h2>
+      <div class="productos-destacados">
+        <article class="producto">
+          <img class="imagen" src="./Imagenes/BASE DE MAQUILLAJE TRUE MATCH SERUM CON COLOR - LOREAL PARIS - 3-4 LIGHT MEDIUM _ lor-zmx03189-s.png" alt="Base de Maquillaje" width="200">
+          <h3>Base de Maquillaje True Match</h3>
+          <p>$20.000 COP</p>
+          <button class="agregarCarrito" data-id="1" data-precio="20000">Agregar al Carrito</button>
+        </article>
+        <article class="producto">
+          <img class="imagen" src="./Imagenes/BLUSHH en barra.jpg" alt="Blush en Barra" width="200">
+          <h3>Blush en Barra</h3>
+          <p>$15.000 COP</p>
+          <button class="agregarCarrito" data-id="2" data-precio="15000">Agregar al Carrito</button>
+        </article>
+        <article class="producto">
+          <img class="imagen" src="./Imagenes/GLOSS diamante.jpg" alt="Gloss Diamante" width="200">
+          <h3>Gloss Diamante</h3>
+          <p>$10.000 COP</p>
+          <button class="agregarCarrito" data-id="3" data-precio="10000">Agregar al Carrito</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="ofertas">
+      <h2 class="titulos-index">Ofertas</h2>
+      <div class="productos-ofertas">
+        <article class="producto">
+          <img class="imagen" src="./Imagenes/Labial oferta.png" alt="Labial Oferta" width="200">
+          <h3>Labial Mate</h3>
+          <p>$50.000 COP</p>
+          <button class="agregarCarrito" data-id="4" data-precio="50000">Agregar al Carrito</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="looks-consejos">
+      <h2 class="titulos-index">Looks y Consejos de Maquillaje</h2>
+      <div class="consejos">
+        <article class="producto">
+          <img class="modelo" src="Imagenes/maquillaje.jpg" alt="Consejo 1" width="200" >
+          <p>Aprende a aplicar sombra para destacar tus ojos.</p>
+        </article>
+        <article class="producto">
+          <img class="modelo" src="Imagenes/Maquillaje 2.jpg" alt="Consejo 1" width="200" >
+          <p>Destaca labios definidos y pestañas voluminosas: impacta naturalmente.</p>
+        </article>
+        <article class="producto">
+          <img class="modelo" src="Imagenes/Maquillaje 3.jpg" alt="Consejo 1" width="200" >
+          <p>"Ojos vibrantes: combina sombras naranja y rosado perfectamente.</p>
+        </article>
+        <article class="producto">
+          <img class="modelo" src="Imagenes/maquillaje 4.jpg" alt="Consejo 1" width="200" >
+          <p>Realza la belleza morena: contorno definido y sombras intensas.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Tienda de Maquillaje. Todos los derechos reservados.</p>
+    <ul class="footer-links">
+      <li><a class="footer-a" href="https://www.instagram.com/kofrabeauty?igsh=MWIyMThvMzA3cnVvMg==" target="_blank">Instagram</a></li>
+      <li><a class="footer-a" href="https://www.facebook.com/bendito.maquillajecol?mibextid=LQQJ4d&mibextid=LQQJ4d" target="_blank">Facebook</a></li>
+      <li><a class="footer-a" href="https://wa.link/rfkgpl" target="_blank">WhatsApp</a></li>
+    </ul>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

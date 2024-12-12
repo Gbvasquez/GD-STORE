@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito - G&D STORE</title>
+  <link rel="stylesheet" href="STYLE.css">
+</head>
+<body  >
+  <!-- Barra de navegación -->
+  <nav class="navbar">
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="productos.html">Productos</a></li>
+      <li><a href="acerca.html">Sobre Nosotros</a></li>
+    </ul>
+    <div class="carrito">
+      <button id="verCarrito">&#128722; Carrito (<span id="totalCarrito">0</span> items)</button>
+    </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <header class="header-carrito">
+    <h1>Tu Carrito de Compras</h1>
+    <p>Revisa los productos antes de realizar tu compra.</p>
+  </header>
+
+  <main >
+    <section id="contenidoCarrito">
+      <table>
+        <thead>
+          <tr>
+            <th>Imagen</th>
+            <th>Producto</th>
+            <th>Cantidad</th>
+            <th>Precio</th>
+            <th>Subtotal</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody id="carritoItems">
+          <!-- Productos se agregarán dinámicamente aquí -->
+        </tbody>
+      </table>
+      <div class="total-carrito">
+        <h3>Total: $<span id="carritoTotal">0</span></h3>
+        <button id="finalizarCompra">Finalizar Compra</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-carrito">
+    <p>&copy; 2024 Tienda de Maquillaje. Todos los derechos reservados.</p>
+    <ul class="footer-links">
+      <li><a class="footer-a" href="https://www.instagram.com/kofrabeauty?igsh=MWIyMThvMzA3cnVvMg==" target="_blank">Instagram</a></li>
+      <li><a class="footer-a" href="https://www.facebook.com/bendito.maquillajecol?mibextid=LQQJ4d&mibextid=LQQJ4d" target="_blank">Facebook</a></li>
+      <li><a class="footer-a" href="https://wa.link/rfkgpl" target="_blank">WhatsApp</a></li>
+    </ul>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
